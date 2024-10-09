@@ -6,7 +6,7 @@ interface User{
   id:number,
   username:string,
   password:string,
-  group:number
+  group:number | string
 }
 
 const Page =  () =>{
